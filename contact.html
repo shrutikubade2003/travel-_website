@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="assets/css/contact.css">
+</head>
+<body>
+    <div class="contact-form">
+        <h1>Contact Us</h1>
+        <form id="contact-form" action="#" method="post" onsubmit="return validateForm()">
+            <div class="form">
+                <label>Full Name :</label>
+                <input type="text" name="fullname" id="fullname" placeholder="Enter Your Name" required>
+            </div>
+            <div class="form">
+                <label>Email :</label>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+            </div>
+            <div class="form">
+                <label>Phone Number:</label>
+                <input type="text" name="phone" id="phone" placeholder="Enter Your Phone Number" required>
+            </div>
+            <div class="form">
+                <label>Message :</label>
+                <textarea name="message" id="message" placeholder="Enter Your Message" required></textarea>
+            </div>
+            <button type="submit" class="button">Send</button>
+        </form>
+    </div>
+
+    <script>
+        function validateForm() {
+            var fullname = document.getElementById("fullname").value;
+            var email = document.getElementById("email").value;
+            var phone = document.getElementById("phone").value;
+            var message = document.getElementById("message").value;
+
+            if (!fullname.trim() || !email.trim() || !phone.trim() || !message.trim()) {
+                alert("Please fill out all fields.");
+                return false;
+            }
+
+
+            return true;
+        }
+    </script>
+</body>
+</html>

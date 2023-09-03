@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+/* body{
+    background: url('./assets/img/Around.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+} */
+body {
+    background-image: url('../img/around.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    background:#eee;
+    font-family: 'Akaya Telivigala', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    border-radius:8px;
+    text-align: center;
+}
+.form{
+    border: 1px solid #a9a9a9;
+    font-family: 'Akaya Telivigala', cursive;
+    margin: 7px 0px;
+    padding: 6px 20px;
+}
+.contact-form h1{
+    font-weight: 500;
+    margin-top: 0px;
+    color: hsla(47, 88%, 50%, 0.759);
+    font-family: 'Akaya Telivigala', cursive;
+}
+.form label{
+  font-size: 13px;
+  color: #000;
+  display: block;
+  text-align: left;
+  font-family: 'Akaya Telivigala', cursive;
+  text-transform: uppercase;
+}
+.form input, .form textarea{
+      width: 100%;
+      font-size: 19px;
+      margin-top: 5px;
+      border: none;
+      background: none;
+      font-family: 'Akaya Telivigala', cursive;
+      outline: none;
+}
+.button{
+    width: 100%;
+    display: inline-block;
+    background-color: rgb(174, 212, 230);
+    font-family: 'Akaya Telivigala', cursive;
+    padding: 14px 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 8px;
+    cursor: pointer;
+    color:black;
+    border: none;
+}
+.button:hover{
+    background-color: rgb(74, 179, 227);
+}

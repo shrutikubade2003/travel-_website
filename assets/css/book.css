@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_bg{
+    background-image: url(../img/aroplane.jpg);
+    max-width: 1280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.form{
+    width: 650px;
+    background:#eee;;
+}
+
+.form-text{
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+.form-text h1 span img{
+    margin: 0 10px;
+
+}
+.form-text h1{
+    color: hsla(47, 88%, 50%, 0.759);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.form-text p{
+    color:rgb(36, 33, 33);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: large;
+}
+
+.main-form div{
+    margin: 10px 10px;
+    width: 300px;
+    display: inline-block;
+}
+.main-form div input {
+    width: 100%;
+    font-family: 'Akaya Telivigala', cursive;
+    background: none;
+    border: 1px solid #5fa5ba;
+    font-size: 20px;
+    color:rgb(36, 33, 33);
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 10px;
+}
+.main-form div select{
+    width: 104%;
+    font-family: 'Akaya Telivigala', cursive;
+    background: none;
+    border: 1px solid #5fa5ba;
+    font-size: 20px;
+    color: #6c6a6a;
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 10px;
+}
+.main-form div span{
+    width: 100%;
+    font-family: 'Akaya Telivigala', cursive;
+    color: rgb(36, 33, 33);
+    font-size: 19px;
+}
+
+#date{
+    color: #6c6a6a;
+}
+
+#submit{
+    width: 100%;
+    text-align: center;
+}
+#submit input{
+    font-family: 'Akaya Telivigala', cursive;
+    width: 200px;
+    background-color:1px solid #5fa5ba;;
+    color: rgb(36, 33, 33) !important;
+    transition: all .3s;
+}
+#submit input:hover{
+    font-family: 'Akaya Telivigala', cursive;
+    width: 200px;
+    background-color: rgb(74, 179, 227);
+    color:rgb(36, 33, 33) !important;
+}
+#submit input:active{
+    font-size: 19px;
+    background-color: rgb(127, 161, 176) !important;
+    color: rgb(36, 33, 33) !important;
+}
+
+
+@media screen and (max-width:710px) {
+    .main-form{
+        text-align: center;
+    }
+}
+
